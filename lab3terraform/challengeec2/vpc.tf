@@ -44,9 +44,3 @@ resource "aws_security_group" "sg_backend" {
 }
 
 
-resource "aws_s3_bucket""bucket"{
-  tags ={
-    Name ="bucket"
-  }
-}
-
