@@ -10,7 +10,7 @@ COPY . .
 # EJECUTAMOS COMANDOS
 RUN go build -o /usr/bin/application
 
-EXPOSE 5000
+EXPOSE 8080
 
 
 # COMAND

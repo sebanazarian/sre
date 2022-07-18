@@ -8,7 +8,7 @@ import (
 )
 
 var greeting = map[string]string{
-	"hello": "world",
+	"hello": "nazarian",
 }
 
 func homePage(w http.ResponseWriter, r *http.Request) {
@@ -20,7 +20,7 @@ func homePage(w http.ResponseWriter, r *http.Request) {
 		fmt.Println(err)
 	}
 
-	fmt.Println("Endpoint Hit: homePage")
+	fmt.Println("Request received")
 }
 
 func main() {
